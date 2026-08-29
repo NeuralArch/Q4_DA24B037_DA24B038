@@ -1,0 +1,23 @@
+artifact_path: /home/neuralarch/Downloads/AIOps/DA24B037_AIOps_Assignment1/mlruns/1/models/m-127f1a0df13c4ca897da02f64589bf25/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.2
+model_id: m-127f1a0df13c4ca897da02f64589bf25
+model_size_bytes: 1814376
+model_uuid: m-127f1a0df13c4ca897da02f64589bf25
+prompts: null
+run_id: 239636b7265c48bf936153068fa5ceaa
+utc_time_created: '2026-08-29 18:34:19.428118'

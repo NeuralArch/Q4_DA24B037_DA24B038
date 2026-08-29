@@ -1,11 +1,3 @@
-"""
-train.py — Trains a simple RandomForest classifier on the Iris dataset,
-logs params/metrics/seed/git_commit to MLflow, and saves the model artifact.
-
-Usage:
-    python train.py
-"""
-
 import subprocess
 import hashlib
 import mlflow
@@ -26,9 +18,6 @@ try:
 except Exception:
     git_commit = "unknown"
 
-# ---- Get DVC-tracked dataset version (md5 hash from the .dvc file) ----
-# This ties the MLflow run to the exact dataset version used for training,
-# so reproducibility can be checked against both code (git) and data (dvc).
 try:
     with open("file_list.csv.dvc") as f:
         dvc_file_contents = f.read()
