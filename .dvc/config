@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = ssh://neuralarch@localhost/home/neuralarch/dvc_storage
+    url = gdrive://Q4_DA24B037_DA24B038
