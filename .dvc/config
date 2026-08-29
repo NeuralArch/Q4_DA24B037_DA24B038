@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = ssh://neuralarch@localhost/home/neuralarch/dvc_storage
